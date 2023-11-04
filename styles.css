@@ -47,6 +47,7 @@ h1 {
     font-size: calc(18px + 2.0vw);
     text-transform: none;
     margin: 0;
+    margin-bottom: 1em;
 }
 
 p {
@@ -54,7 +55,7 @@ p {
     text-transform: none;
     margin: 0;
     margin-top: 0.5vw;
-    text-align: center;
+    text-align: center;    
 }
 
 .light-theme {
@@ -72,11 +73,28 @@ p {
     /* word-break: break-all; */
 }
 
-#theme-toggle {
+.email {
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    /* top: 0;
+    right: 0; */
+}
+
+/* #theme-toggle {
     font-family: HelveticaNeue, Arial, sans-serif;
     position: fixed;
     left: 50%;
     bottom: 20px;
+    transform: translateX(-50%);
+} */
+
+#theme-toggle {
+    font-family: HelveticaNeue, Arial, sans-serif;
+    position: fixed;    
+    top: 0;
+    right: 0;
     transform: translateX(-50%);
 }
 
