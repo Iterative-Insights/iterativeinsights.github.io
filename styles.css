@@ -33,21 +33,21 @@ body, html {
 }
 
 .spiral-image {
-    background-image: url('images/torus_black_on_white.png');
+    background-image: url('images/torus-black-on-white-6605b1c9823e1.png');
     background-size: cover;
     height: 300px;
     width: 300px;
 }
 
 .spiral-image-light-theme {
-    background-image: url('images/torus_black_on_white.png');
+    background-image: url('images/torus-black-on-white-6605b1c9823e1.png');
     background-size: cover;
     height: 300px;
     width: 300px;
 }
 
 .spiral-image-dark-theme {
-    background-image: url('images/torus_white_on_black.png');
+    background-image: url('images/torus-white-on-black-6605b1c966ef9.png');
     background-size: cover;
     height: 300px;
     width: 300px;
